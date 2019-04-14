@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: 90%;
+    height: 95%;
 }
 
 .no-payment {
@@ -49,6 +49,7 @@ html, body {
     display: block;
     text-align: justify;
     line-height: 1.3em;
+    letter-spacing: 0.7px;
 }
 
 .no-payment__link {
@@ -57,12 +58,16 @@ html, body {
 
 .no-payment__system-info {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     color: #666666;
     font-family: Arial, sans-serif;
 }
 
 @media (max-width: 940px) {
+    html, body {
+        height: 100%;
+    }
+
     .no-payment {
         flex-direction: column;
         margin: 0 auto;
